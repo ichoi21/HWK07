@@ -1,16 +1,14 @@
-## 07 Node.js & ES6+: Good README Generator
+# 07 Node.js & ES6+: Good README Generator
 
 When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
 
 ```
 AS A developer
-
 I WANT a README generator
-
 SO THAT I can easily put together a good README for a new project
 ```
 
-Refer to the [Good README guide](../../01-HTML-Git-CSS/04-Supplemental/Good-README-Guide/README.md).
+Refer to the [Good README guide](##).
 
 ## Acceptance Criteria & Requirement
 
@@ -39,7 +37,7 @@ The README will be populated with the following:
 
 Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
 
-## Minimum Requirements
+### Minimum Requirements
 
 - Functional, deployed application.
 - GitHub repository with a unique name and a README describing project.
@@ -61,15 +59,13 @@ Following the [common templates for user stories](https://en.wikipedia.org/wiki/
 
 ```
 GIVEN the developer has a GitHub profile and a repository
-
 WHEN prompted for the developer's GitHub username and repo specific information
-
 THEN a README for the repo is generated
 ```
 
 ---
 
-# Commit Early and Often
+### Commit Early and Often
 
 One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
