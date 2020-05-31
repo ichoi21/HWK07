@@ -1,11 +1,6 @@
 const questions = [
   {
     type: "input",
-    name: "username",
-    message: "What is your GitHub USERNAME?",
-  },
-  {
-    type: "input",
     name: "email",
     message: "What is your GitHub EMAIL",
   },
@@ -31,7 +26,7 @@ const questions = [
   },
   {
     type: "list",
-    nane: "license",
+    name: "license",
     message: "Which License are you using?",
     choices: [
       "GNU GPLv3",
@@ -55,6 +50,4 @@ const questions = [
   },
 ];
 
-module.exports = {
-  questions,
-};
+module.exports = questions;
