@@ -4,22 +4,26 @@ const axios = require("axios");
 const promptQA = require("./promptQA");
 // const genReadme = require("./readmeTemp");
 
-inquirer.prompt(promptQA).then(function ({ userName }) {
-  const searchUrl = `https://api.github.com/users/${userName}`;
+inquirer.prompt(promptQA).then(function ({ username }) {
+  const searchUrl = `https://api.github.com/users/${username}`;
+  // var userEmail = { email };
 
   axios.get(searchUrl).then(function (res) {
     var avatarUrl = res.data.avatar_url;
-    var Url = res.data.avatar_url;
+    var username = res.data.login;
+    var Url = res.data.html_url;
+    var repo = res.data.repos_url;
 
     console.log(
-      res.title,
-      res.about,
+      // res.title,
+      // res.about,
       avatarUrl,
-      userName,
-      res.data.html_link,
-      // email,
-      res.install,
-      res.usage
+      username,
+      Url,
+      repo
+      // userEmail,
+      // res.install,
+      // res.usage
       // res.contributor,
       // res.contributorRes,
       // license
