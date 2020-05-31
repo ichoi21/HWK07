@@ -16,9 +16,8 @@ const questions = [
   },
   {
     type: "input",
-    name: "about"
+    name: "about",
     message: "Can you describe what this project is ABOUT?",
-    name: "desc",
   },
   {
     type: "input",
@@ -55,3 +54,7 @@ const questions = [
     when: (answers) => answers.contributor === true,
   },
 ];
+
+module.exports = {
+  questions,
+};
