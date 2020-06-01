@@ -4,6 +4,8 @@
 
 ## Description
 
+---
+
 An app created to create a formated README.md to future projects with ease.
 
 #### Author(s)
@@ -15,8 +17,8 @@ user: [ichoi21](https://github.com/ichoi21) | email: ic@g.co | repos: [Click Her
 
 ### Contents
 
-- How to install
-- How to use
+- How to install script
+- How to use script
 - Contributor(s) (if applicable)
   ![demo](https://drive.google.com/file/d/1l2PN1OduFUb3ynwqWKoPateKcBuvspfx/view?usp=sharing)
 
