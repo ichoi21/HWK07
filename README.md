@@ -28,7 +28,7 @@ Perform the following: npm install, +axios, +installer
 
 ### Intended Usage
 
-To create README files with a standardize template.
+To create README files with a standardize template making it quick and easy.
 
 ### Contributors
 
