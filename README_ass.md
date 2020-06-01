@@ -63,10 +63,21 @@ WHEN prompted for the developer's GitHub username and repo specific information
 THEN a README for the repo is generated
 ```
 
----
-
-## Submission on BCS
+### Submission on BCS
 
 - An animated GIF demonstrating the app functionality
 - A generated README.md file for a project repo.
 - The URL of the GitHub repository
+
+---
+
+### Narrative
+
+- Initial Setup
+- Added JS files, created useing module.exports.
+- requires axios, inquirer additionally to be installed.
+- setup gitignore
+- Questions prompted to set up with README format template
+- API success with GitHub
+- module.exports function with Prompt1 + PromptQA after understanding code was unable to read specifics.
+- Added writeFile to export answers to .md file within.
