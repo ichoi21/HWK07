@@ -11,7 +11,7 @@ An app created to create a formated README.md to future projects with ease.
 #### Author(s)
 
 ![user's avatar](https://avatars3.githubusercontent.com/u/58826890?v=4)<br>
-user: [ichoi21](https://github.com/ichoi21) | email: ic@g.co | repos: [Click Here](https://api.github.com/users/ichoi21/repos)
+user: [ichoi21](https://github.com/ichoi21) | email: ic@g.co | repos: [Click Here](https://github.com/ichoi21?tab=repositories)
 
 ---
 
