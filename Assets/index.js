@@ -33,36 +33,38 @@ inquirer.prompt(prompt1).then(function ({ username }) {
         "\n" + res.license
       );
       fs.writeFile(
-        "../README_test.md",
+        "..//README.md",
         `# ${res.title}
-        ---
-    ## Description
-    ${res.about}
 ---
-    #### Author(s)
-    ![user's avatar](${avatarUrl})<br>
-    user: [${username}](${Url}) | email: ${res.email} | repos: [Click Here}(${repo})
+## Description
+${res.about}
 ---
-    ## Contents
-    - How to install
-    - How to use
-    - Contributor(s) (if applicable)
+#### Author(s)
+![user's avatar](${avatarUrl})<br>
+user: [${username}](${Url}) | email: ${res.email} | repos: [Click Here](${repo})
 ---
-    ## How to install
-    Perform the following:
-    ${res.install}
+### Contents
+- How to install
+- How to use
+- Contributor(s) (if applicable)
+![](./assets/READMEgen.gif)
 ---
-    ## Intended Usage
-    ${res.usage}
----
-    ## Contributors
-    ${res.contributorRes}
----
-    ## License
-    ![license type](https://img.shields.io/badge/LicenseUsed-${res.license}-${res.color}`,
-        (error) => {
-          if (error) {
-            console.log(error);
+### How to install
+
+Perform the following: ${res.install}
+
+### Intended Usage
+${res.usage}
+
+### Contributors
+${res.contributorRes}
+
+### License
+![license type] (https://img.shields.io/badge/LicenseUsed-${res.license}-${res.color})`,
+        (err) => {
+          if (err) {
+            console.log(err);
+            return;
           }
           console.log("Readme Created!");
         }

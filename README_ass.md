@@ -81,3 +81,4 @@ THEN a README for the repo is generated
 - API success with GitHub
 - module.exports function with Prompt1 + PromptQA after understanding code was unable to read specifics.
 - Added writeFile to export answers to .md file within.
+- Added GIF to demonstrate node index.js
