@@ -4,7 +4,7 @@
 
 ## Description
 
-## An app created to create a formated README.md to future projects with ease.
+An app created to create a formated README.md to future projects with ease.
 
 #### Author(s)
 
@@ -18,7 +18,7 @@ user: [ichoi21](https://github.com/ichoi21) | email: ic@g.co | repos: [Click Her
 - How to install
 - How to use
 - Contributor(s) (if applicable)
-  ![](./assets/READMEgen.gif)
+  ![demo](./assets/READMEgen.gif)
 
 ---
 
