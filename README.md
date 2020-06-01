@@ -1,11 +1,11 @@
-# README Gen
+# R.md
         ---
 ## Description
-    Creating an app to make a README with a format set up ready to ease making READMEs
+    mmd
 ---
     #### Author(s)
     ![user's avatar](https://avatars3.githubusercontent.com/u/58826890?v=4)<br>
-    user: [ichoi21](https://github.com/ichoi21) | email: N/A | repos: [Click Here}(https://api.github.com/users/ichoi21/repos)
+    user: [ichoi21](https://github.com/ichoi21) | email: ic@g.co | repos: [Click Here}(https://api.github.com/users/ichoi21/repos)
 ---
     ### Contents
     - How to install
@@ -14,13 +14,13 @@
 ---
     ### How to install
     Perform the following:
-    npm insall, +axios, +inquirer
+    npm instal
 ---
     ### Intended Usage
-    make life easier
+    nah
 ---
     ### Contributors
     undefined
 ---
     ### License
-    ![license type](https://img.shields.io/badge/LicenseUsed-MIT License-blue)
+    ![license type] (https://img.shields.io/badge/LicenseUsed-MIT License-red)
