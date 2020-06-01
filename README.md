@@ -18,7 +18,7 @@ user: [ichoi21](https://github.com/ichoi21) | email: ic@g.co | repos: [Click Her
 - How to install
 - How to use
 - Contributor(s) (if applicable)
-  ![demo](./assets/READMEgen.gif)
+  ![demo](https://drive.google.com/file/d/1l2PN1OduFUb3ynwqWKoPateKcBuvspfx/view?usp=sharing)
 
 ---
 
