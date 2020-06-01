@@ -38,6 +38,19 @@ const questions = [
     ],
   },
   {
+    type: "list",
+    name: "color",
+    message: "Please pick a color:",
+    choices: [
+      "blue",
+      "lightgrey",
+      "red",
+      "orange",
+      "brightgreen",
+      "blueviolet",
+    ],
+  },
+  {
     type: "confirm",
     name: "contributor",
     message: "Did any other else work on this Project?",

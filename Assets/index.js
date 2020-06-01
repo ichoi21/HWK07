@@ -19,17 +19,52 @@ inquirer.prompt(prompt1).then(function ({ username }) {
         res.contributor = "None";
       }
       console.log(
-        res.about,
-        avatarUrl,
-        username,
-        Url,
-        repo,
-        res.email,
-        res.install,
-        res.usage,
-        res.contributor,
-        res.contributorRes,
-        res.license
+        res.title,
+        "\n" + res.about,
+        "\n" + avatarUrl,
+        "\n" + username,
+        "\n" + Url,
+        "\n" + repo,
+        "\n" + res.email,
+        "\n" + res.install,
+        "\n" + res.usage,
+        "\n" + res.contributor,
+        "\n" + res.contributorRes,
+        "\n" + res.license
+      );
+      fs.writeFile(
+        "../README_test.md",
+        `# ${res.title}
+    ## Description
+    ${res.about}
+
+    #### Author(s)
+    ![user's avatar](${avatarUrl})<br>
+    user: [${username}](${Url}) | email: ${res.email} | repos: [Click Here}(${repo})
+
+    ## Contents
+    - How to install
+    - How to use
+    - Contributor(s) (if applicable)
+
+    ## How to install
+    Perform the following:
+    ${res.install}
+
+    ## Intended Usage
+    ${res.usage}
+
+    ## Contributors
+    ${res.contributorRes}
+
+    ## License
+    ![license type](https://img.shields.io/badge/LicenseUsed-${res.license}-${res.color}`,
+        (error) => {
+          if (error) {
+            console.log(error);
+          }
+          console.log("Readme Created!");
+        }
       );
     });
   });
