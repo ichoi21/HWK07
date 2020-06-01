@@ -1,4 +1,2 @@
 ./assets/node_modules
 ./assets/package-lock.json
-./api.js
-./index.html
